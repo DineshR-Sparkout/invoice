@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row td:nth-child(odd){
+    background-color: #e6e8e5;
+}
+.img-fluid{
+    max-width: 50%;
+    height: auto;
+}
