@@ -8,146 +8,128 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <table>
-            <tr>
-                <td>
-                    <a href="javascript:void(0)">
-                        <picture>
-                            <source type="image/webp" src="assets/images/brandname-logo.webp">
-                            <source type="image/png" src="assets/images/brandname-logo.png">
-                            <img src="assets/images/brandname-logo.png" alt="logo" loading="lazy" title="logo" class="img-fluid">
-                        </picture>
-                    </a>        
-                </td>
-                <td>
-                    <h1 class="xl:text-7xl lg:text-5xl md:text-3xl sm:text-xl text-lg text-baltic-sea font-light">INVOICE</h1>  
-                </td>
-            </tr>
-        </table>
-        <!-- <header class="xl:mt-16 lg:mt-14 md:mt-12 sm:mt-10 mt-8 xl:mb-11 lg:mb-10 md:mb-9 sm:mb-8 mb-7">
-        <div class="container">
-            <div class="flex items-center justify-between">
-                <a href="javascript:void(0)">
-                    <picture>
-                        <source type="image/webp" src="assets/images/brandname-logo.webp">
-                        <source type="image/png" src="assets/images/brandname-logo.png">
-                        <img src="assets/images/brandname-logo.png" alt="logo" loading="lazy" title="logo" class="img-fluid">
-                    </picture>
-                </a>
-                <h1 class="xl:text-7xl lg:text-5xl md:text-3xl sm:text-xl text-lg text-baltic-sea font-light">INVOICE</h1>
-            </div>
-        </div>
-    </header> -->
-    <section class="xl:pb-9 md:pb-8 pb-7">
-        <div class="container">
-            <div class="flex justify-between items-center">
-                <div>
-                    <p class="xl:text-3xl lg:text-xl md:text-lg text-base font-medium text-baltic-sea lg:pb-3 pb-2">Invoice to:</p>
-                    <p class="xl:text-xl lg:text-lg md:text-base text-sm font-medium text-baltic-sea">Dwyane Clark</p>
-                    <p class="xl:text-lg lg:text-base md:text-sm text-xs text-harmonies">24,Dummy Street Area,<br>Location,Lorem, ipsum.<br>570xx59x</p>
-                </div>
-                <div class="flex xl:gap-7 lg:gap-6 md:gap-5 sm:gap-4 gap-3 items-center">
-                    <div class="flex flex-col">
-                        <p class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea">Invoice#</p>
-                        <p class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea">Date</p>
-                    </div>
-                    <div class="flex flex-col text-end">
-                        <p class="xl:text-lg lg:text-base md:text-sm text-xs text-harmonies">52148</p>
-                        <p class="xl:text-lg lg:text-base md:text-sm text-xs text-harmonies">01 /02 /2020</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <table class="w-full md:mb-5 mb-3">
-                <tr class="text-center xl:text-lg lg:text-base md:text-sm text-xs font-medium bg-echo-blue text-white">
-                    <th class="md:p-4 p-2">S.L</th>
-                    <th class="md:p-4 p-2">Item Description</th>
-                    <th class="md:p-4 p-2">Price</th>
-                    <th class="md:p-4 p-2">Qty.</th>
-                    <th class="md:p-4 p-2">Total</th>
+        <section class="xl:pb-14 lg:pb-12 md:pb-10 sm:pb-8 pb-6 container">
+            <table >
+                <tr>
+                    <td class="xl:pt-16 lg:pt-14 md:pt-12 sm:pt-10 pt-8 xl:pb-11 lg:pb-10 md:pb-9 sm:pb-8 pb-7" colspan="2">
+                        <a href="javascript:void(0)">
+                            <picture>
+                                <source type="image/webp" src="assets/images/brandname-logo.webp">
+                                <source type="image/png" src="assets/images/brandname-logo.png">
+                                <img src="assets/images/brandname-logo.png" alt="logo" loading="lazy" title="logo" class="img-fluid">
+                            </picture>
+                        </a>
+                    </td>
+                    <td class="2xl:text-9xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl text-baltic-sea font-light text-right xl:pt-16 lg:pt-14 md:pt-12 sm:pt-10 pt-8 xl:pb-11 lg:pb-10 md:pb-9 sm:pb-8 pb-7" colspan="3">INVOICE</td>
                 </tr>
-                <tr class="text-center xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
+                <tr>
+                    <td class="xl:pb-9 md:pb-8 pb-7" colspan="2">
+                        <table>
+                            <tr>
+                                <th class="2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base font-medium text-baltic-sea lg:pb-3 pb-2 text-left">Invoice to:</th>
+                            </tr>
+                            <tr>
+                                <td class="xl:text-2xl lg:text-xl md:text-lg sm:text-base  text-sm font-medium text-baltic-sea">Dwyane Clark</td>
+                            </tr>
+                            <tr>
+                                <td class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs text-harmonies">24,Dummy Street Area,<br>Location,Lorem, ipsum.<br>570xx59x</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="xl:pb-9 md:pb-8 pb-7 align-bottom" colspan="3">
+                        <table class="ms-auto">
+                            <tr>
+                                <th class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-medium text-baltic-sea text-left xl:pe-10 lg:pe-8 md:pe-6 sm:pe-4 pe-2">Invoice#</th>
+                                <td class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs text-harmonies text-right">52148</td>
+                            </tr>
+                            <tr>
+                                <th class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-medium text-baltic-sea text-left xl:pe-10 lg:pe-8 md:pe-6 sm:pe-4 pe-2">Date</th>
+                                <td class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs text-harmonies text-right">01 /02 /2020</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="text-left xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-medium bg-echo-blue text-white">
+                    <th class="md:p-4 p-2 w-1/6">S.L</th>
+                    <th class="md:p-4 p-2 w-full">Item Description</th>
+                    <th class="md:p-4 p-2 w-1/4">Price</th>
+                    <th class="md:p-4 p-2 w-1/4">Qty.</th>
+                    <th class="md:p-4 p-2 w-1/4">Total</th>
+                </tr>
+                <tr class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
                     <td class="lg:p-5 p-3">1</td>
                     <td class="lg:p-5 p-3">Lorem, ipsum dolor.</td>
                     <td class="lg:p-5 p-3">$50.00</td>
                     <td class="lg:p-5 p-3">1</td>
                     <td class="lg:p-5 p-3">$50.00</td>
                 </tr>
-                <tr class="text-center xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
+                <tr class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
                     <td class="lg:p-5 p-3">2</td>
                     <td class="lg:p-5 p-3">Lorem ipsum dolor sit.</td>
                     <td class="lg:p-5 p-3">$20.00</td>
                     <td class="lg:p-5 p-3">3</td>
                     <td class="lg:p-5 p-3">$60.00</td>
                 </tr>
-                <tr class="text-center xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
+                <tr class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
                     <td class="lg:p-5 p-3">3</td>
                     <td class="lg:p-5 p-3">Lorem ipsum dolor sit.</td>
                     <td class="lg:p-5 p-3">$10.00</td>
                     <td class="lg:p-5 p-3">2</td>
                     <td class="lg:p-5 p-3">$20.00</td>
                 </tr>
-                <tr class="text-center xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
+                <tr class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea border-b-2 border-b-harmonies row">
                     <td class="lg:p-5 p-3">4</td>
                     <td class="lg:p-5 p-3">Lorem, ipsum dolor.</td>
                     <td class="lg:p-5 p-3">$90.00</td>
                     <td class="lg:p-5 p-3">1</td>
                     <td class="lg:p-5 p-3">$90.00</td>
                 </tr>
-            </table>
-        </div>
-    </section>
-    <section class="xl:pb-14 lg:pb-12 md:pb-10 sm:pb-8 pb-6">
-        <div class="container">
-            <div class="flex justify-between">
-                <div>
-                    <p class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea xl:pb-11 lg:pb-10 md:pb-9 sm:pb-8 pb-7">Thank you for your bussiness</p>
-                    <div  class="xl:pb-9 lg:pb-8 md:pb-7 sm:pb-6 pb-5">
-                        <h2 class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea pb-2">Payment Info:</h2>
-                        <table class="lg:text-sm text-xs text-harmonies font-medium w-full">
+                <tr>
+                    <td class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea xl:pb-11 lg:pb-10 md:pb-9 sm:pb-8 pb-7 md:pt-5 pt-3 align-text-top" colspan="2">Thank you for your bussiness</td>
+                    <td class="md:pt-5 pt-3" colspan="3">
+                        <table class="ms-auto">
                             <tr>
-                                <td class="pr-2">Account #:</td>
-                                <td>1234 5678 9012</td>
+                                <th class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea lg:p-4 p-2 xl:pr-20 lg:pr-16 md:pr-12 sm:pr-8 pr-4 text-left">Sub Total:</th>
+                                <td class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea lg:p-4 p-2">$220.00</td>
+                            </tr>
+                            <tr class="border-b-2 border-b-baltic-sea">
+                                <th class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea lg:p-4 p-2  xl:pr-20 lg:pr-16 md:pr-12 sm:pr-8 pr-4 text-left">Tax:</th>
+                                <td class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea lg:p-4 p-2">0.00%</td>
                             </tr>
                             <tr>
-                                <td class="pr-2">A/C Name:</td>
-                                <td>Lorem, ipsum.</td>
-                            </tr>
-                            <tr>
-                                <td class="pr-2">Bank Details:</td>
-                                <td>Add your bank details</td>
-                            </tr>
+                                <th class="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base font-medium text-baltic-sea lg:p-4 p-2  xl:pr-20 lg:pr-16 md:pr-12 sm:pr-8 pr-4 text-left">Total:</th>
+                                <td class="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base font-medium text-baltic-sea lg:p-4 p-2">$220.00</td>
+                           </tr>    
                         </table>
-                    </div> 
-                    <div>
-                        <h2 class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea pb-2">Terms & Conditions</h2>
-                        <p class="lg:text-sm text-xs text-harmonies font-medium">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Quasi, et.</p>
-                    </div>
-                </div>
-                <div class="flex flex-col justify-between">
-                    <table>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
                         <tr>
-                            <td class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea lg:p-2 p-1 xl:pr-10 lg:pr-8 md:pr-6 sm:pr-4 pr-2">Sub Total:</td>
-                            <td class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea lg:p-2 p-1">$220.00</td>
-                        </tr>
-                        <tr class="border-b-2 border-b-baltic-sea">
-                            <td class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea lg:p-2 p-1  xl:pr-10 lg:pr-8 md:pr-6 sm:pr-4 pr-2">Tax:</td>
-                            <td class="xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea lg:p-2 p-1">0.00%</td>
+                            <th class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea pb-2 text-left" colspan="3">Payment Info:</th>
                         </tr>
                         <tr>
-                            <td class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-medium text-baltic-sea lg:p-2 p-1  xl:pr-10 lg:pr-8 md:pr-6 sm:pr-4 pr-2">Total:</td>
-                            <td class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-medium text-baltic-sea lg:p-2 p-1">$220.00</td>
+                            <td class="pr-2 lg:text-base sm:text-sm text-xs text-harmonies font-medium ">Account #:</td>
+                            <td class="lg:text-base sm:text-sm text-xs text-harmonies font-medium ">1234 5678 9012</td>
                         </tr>
-                    </table>
-                    <div class="xl:px-6 md:px-5 px-4">
-                        <p class="lg:px-4 sm:px-3 px-2 lg:pt-4 sm:pt-3 pt-2 border-t-2 border-t-baltic-sea text-center xl:text-lg lg:text-base md:text-sm text-xs font-medium text-baltic-sea">Authorized Sign</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
+                        <tr>
+                            <td class="pr-2 lg:text-base sm:text-sm text-xs text-harmonies font-medium">A/C Name:</td>
+                            <td class="lg:text-base sm:text-sm text-xs text-harmonies font-medium">Lorem, ipsum.</td>
+                        </tr>
+                        <tr>
+                            <td class="pr-2 lg:text-base sm:text-sm text-xs text-harmonies font-medium xl:pb-9 lg:pb-8 md:pb-7 sm:pb-6 pb-5">Bank Details:</td>
+                            <td class="lg:text-base sm:text-sm text-xs text-harmonies font-medium xl:pb-9 lg:pb-8 md:pb-7 sm:pb-6 pb-5">Add your bank details</td>
+                        </tr>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea pb-2 text-left" colspan="2">Terms & Conditions</th>
+                </tr>
+                <tr>
+                    <td class="lg:text-base sm:text-sm text-xs text-harmonies font-medium" colspan="3">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Quasi, et.</td>
+                    <td class="xl:px-6 md:px-5 px-2 lg:px-4 sm:px-3 lg:pt-4 sm:pt-3 pt-2 border-t-2 border-t-baltic-sea text-center xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs font-medium text-baltic-sea" colspan="2">Authorized Sign</td>
+                </tr>
+            </table>
+        </section>
+    </body>
 </html>
